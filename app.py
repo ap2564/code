@@ -7,7 +7,7 @@ app = FastAPI()
 
 @app.get("/")
 def read_root():
-    return {"Hello": "World"}
+    return {"Group8": "EMR integration using blue button"}
 
 
 @app.get("/items/{item_id}")
